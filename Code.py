@@ -17,6 +17,7 @@ def write_fasta(sequences, output_file):
             file.write(header + "\n")
             file.write(sequence + "\n")
 
+
 def remove_asterisks(sequences):
     cleaned_sequences = {}
     for header, sequence in sequences.items():
