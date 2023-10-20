@@ -27,6 +27,7 @@ def remove_asterisks(sequences):
 input_fasta = "protein seq.fasta"
 output_fasta = "clean protein seq.fasta"
 
+
 sequences = read_fasta(input_fasta)
 cleaned_sequences = remove_asterisks(sequences)
 write_fasta(cleaned_sequences, output_fasta)
