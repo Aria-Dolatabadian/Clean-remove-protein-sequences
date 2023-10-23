@@ -11,7 +11,6 @@ def read_fasta(fasta_file):
                 sequences[current_seq] += line
     return sequences
 
-
 def write_fasta(sequences, output_file):
     with open(output_file, "w") as file:
         for header, sequence in sequences.items():
